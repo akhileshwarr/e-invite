@@ -1,0 +1,528 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:   Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+   #features img{
+     margin: 0 0 20px;
+     text-align: center;
+   }
+   #features h2{
+    position: relative;
+    left:10px;
+   }
+
+#fh{
+  font-size: 20px;
+  text-transform: capitalize;
+  padding-top: 20px;
+  color: #C49808;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.weddingRsvp,.ReceptionRsvp{
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  padding-top: 18px;
+}
+
+
+
+
+
+   h1,h2,h3,h4,h5,h6,#mail{
+
+     font-family: 'Comfortaa', cursive;
+     color:#f97427;
+     text-transform: uppercase;
+   }
+
+
+
+   div.panel{
+   min-height: 700px;
+ }
+ .but2{
+    position:relative; bottom:-70px;
+  }
+  .but3{
+    position:relative; bottom:-25px;
+  }
+  .but4{
+  position:relative; bottom:0px;
+  }
+   #form{
+    font-family: 'Comfortaa', cursive;
+    color:#f97427;
+  }
+
+ /* body{
+   background-image: url('../../images/Mercedes-Benz AMG GT.jpg');
+ }*/
+
+
+
+#headLogo{
+  margin-top: 18px;
+  color:#900C3F;
+  height: 30px;
+  font-family: Georgia header;
+  font-style: italic;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#page{
+  background: url('../../images/backg.jpg') ;
+}
+
+#sp{
+font-family: Stencil Std;
+text-align: center;
+color: SIENNA;
+background-color: BISQUE;
+font-size: 30px;
+letter-spacing: 1px;
+text-decoration: underline;
+text-shadow: 2px 2px red;
+}
+
+#main{
+  /*background: url('../../images/backg.jpg') top center ;*/
+  /*background-color:DODGERBLUE ;*/
+
+}
+
+#fh{
+  font-size: 18px;
+  font-family: Georgia;
+  text-transform: lowercase;
+  text-align: center;
+
+}
+
+#marq{
+  scrolldelay="100";
+}
+
+
+#navBg{
+  /*background-color: DODGERBLUE;*/
+  background: url('../../images/main.jpg') top center no-repeat;
+  opacity: 0.7;
+}
+#navb{
+  padding-left: 100px;
+}
+
+#act{
+font-weight: bold;
+font-size: 20px;
+
+}
+
+
+#footer{
+
+}
+
+ #form{
+    font-family: 'Comfortaa', cursive;
+    color:#f97427;
+  }
+
+
+footer {
+  font-family: 'Comfortaa', cursive;
+  margin-bottom: 10px;
+  margin-top:10px;
+  /*background-color:BURLYWOOD;*/
+  background: url('../../images/main.jpg') top center no-repeat;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+   .well .page-header{
+     margin-top: 0;
+   }
+   .well .page-header h1{
+     margin-top: 0;
+   }
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+   #searchInput{
+    width:200px;
+  }
+
+  .navbar-brand{
+    padding: 0px 0px;
+  }
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel{
+    margin-top: 60px;
+  }
+  .carousel-caption h4{
+    font-size: 24px;
+  }
+  .carousel-caption{
+    font-size: 15px;
+  }
+  #myCarousel .item{
+    margin-top: 20px;
+    height: 400px;
+    background-size: 70% ;
+  }
+
+
+  #slide1{
+    background: url('../../images/carousel/carousel1.jpg') top center no-repeat;
+  }
+  #slide2{
+    background: url('../../images/carousel/carousel2.jpg') top center no-repeat;
+  }
+  #slide3{
+    background: url('../../images/carousel/carousel3.jpg') top center no-repeat;
+  }
+  #slide4{
+    background: url('../../images/carousel/carousel4.jpg') top center no-repeat;
+  }
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   .alert{
+     margin-top: 20px;
+     display: none;
+   }
+   .well{
+     margin: 20px 0;
+   }
+  ul.unstyled {
+     list-style: none;
+     padding: 0;
+   }
+   ul.unstyled,a{
+    color: red;
+   }
+
+   .tabbable img {
+     width: 600px;
+     height: 350px
+   }
+
+   .thumbnails {
+     margin: 20px 0;
+   }
+
+   .thumbnail {
+     position: relative;
+   }
+
+   .thumbnail h3 {
+     font-size: 16px;
+     margin: 0 0 10px;
+     line-height: 20px;
+   }
+
+   .thumbnail img{
+    width: 250px;
+    height: 250px;
+   }
+
+   .thumbnail span.glyphicon {
+     margin-right: 5px;
+   }
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+   /* Portrait & landscape phone */
+   @media (max-width: 480px) {
+    #myCarousel .item{
+      margin-top: 20px;
+     height: 400px;
+     background-size: 75% 400px;
+   }
+   #slide1{
+     background: url('../../images/carousel/carousel1.jpg') top center no-repeat;
+   }
+   #slide2{
+     background: url('../../images/carousel/carousel2.jpg') top center no-repeat;
+   }
+   #slide3{
+     background: url('../../images/carousel/carousel3.jpg') top center no-repeat;
+   }
+   #slide4{
+     background: url('../../images/carousel/carousel4.jpg') top center no-repeat;
+   }
+
+
+.tabbable img {
+    width: 100%;
+    height: auto;
+}
+
+
+.thumbnail img{
+    width: 100%;
+    height: auto;
+   }
+
+.circled{
+
+position: relative;
+width: 100%;
+height: auto;
+}
+}
+
+
+ /* Landscape phone to portrait tablet */
+ @media (max-width: 768px) {
+
+  #myCarousel .item{
+    margin-top: 20px;
+   height: 310px;
+   background-size: 75% 400px;
+ }
+ #slide1{
+   background: url('../../images/carousel/carousel1.jpg') top center no-repeat;
+ }
+ #slide2{
+   background: url('../../images/carousel/carousel2.jpg') top center no-repeat;
+ }
+ #slide3{
+   background: url('../../images/carousel/carousel3.jpg') top center no-repeat;
+ }
+ #slide4{
+   background: url('../../images/carousel/carousel4.jpg') top center no-repeat;
+ }
+ .carousel-caption h4{
+   font-size: 22px;
+ }
+ .carousel-caption{
+   font-size: 16px;
+ }
+
+
+.tabbable img {
+    width: 100%;
+    height: auto;
+}
+
+.tabbable video {
+    width: 100%;
+    height: auto;
+}
+
+.thumbnail img{
+    width: 100%;
+    height: auto;
+   }
+
+.circled{
+
+position: relative;
+width: 100%;
+height: auto;
+
+}
+}
+
+
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #myCarousel .item{
+    margin-top: 20px;
+   height: 500px;
+   background-size: 75% 400px;
+ }
+ #slide1{
+   background: url('../../images/carousel/carousel1.jpg') top center no-repeat;
+ }
+ #slide2{
+   background: url('../../images/carousel/carousel2.jpg') top center no-repeat;
+ }
+ #slide3{
+   background: url('../../images/carousel/carousel3.jpg') top center no-repeat;
+ }
+ #slide4{
+   background: url('../../images/carousel/carousel4.jpg') top center no-repeat;
+ }
+
+
+.tabbable img {
+    width: 100%;
+    height: auto;
+}
+
+.thumbnail img{
+    width: 100%;
+    height: auto;
+   }
+
+.circled{
+
+position: relative;
+width: 100%;
+height: auto;
+
+
+}
+.but2{
+  position:relative; bottom:10px;
+  }
+
+  .but3{
+  position:relative; bottom:-9px;
+  }
+}
+
+
+@media (max-width: 1200px){
+  /*features adjust*/
+
+
+  div.panel{
+   min-height: 746px;
+  }
+
+.tabbable img {
+    width: 100%;
+    height: auto;
+}
+
+.thumbnail img{
+    width: 100%;
+    height: auto;
+   }
+
+
+.circled{
+
+position: relative;
+width: 100%;
+height: auto;
+
+}
+
+.but2{
+  position:relative; bottom:-90px;
+  }
+  .but3{
+  position:relative; bottom:-10px;
+  }
+  }
+
+
+@media (max-width: 992px){
+  /*features adjust*/
+
+  div.panel{
+   min-height: 903px;
+  }
+
+.tabbable img {
+    width: 100%;
+    height: auto;
+}
+
+.thumbnail img{
+    width: 100%;
+    height: auto;
+   }
+
+   .but2{
+    position:relative; bottom:-135px;
+  }
+  .but3{
+    position:relative; bottom:-5px;
+  }
+
+
+.circled{
+
+position: relative;
+width: 100%;
+height: auto;
+
+
+}
+}
+
+@media (max-width: 767px){
+  /*features adjust*/
+
+  div.panel{
+   min-height: 600px;
+  }
+
+
+.tabbable img {
+    width: 100%;
+    height: auto;
+}
+
+ .thumbnail img{
+    width: 100%;
+    height: auto;
+   }
+
+
+.circled{
+
+position: relative;
+width: 100%;
+height: auto;
+
+}
+.but2{
+  position:relative; bottom:10px;
+  }
+
+  .but3{
+  position:relative; bottom:-9px;
+  }
+}
